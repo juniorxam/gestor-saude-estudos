@@ -2,6 +2,13 @@
  * Cartografia do Cuidado — dados pedagógicos estáveis, extraídos do edital SES/TO 001/2026.
  * A interface usa estes IDs para conectar trilha, prática, simulado e persistência local.
  */
+import { geraisSupplementalQuestions } from "./general-supplemental";
+import { governancaSupplementalQuestions } from "./governance-supplemental";
+import { normasSupplementalQuestions } from "./norms-supplemental";
+import { organizacoesSupplementalQuestions } from "./organizations-supplemental";
+import { pessoasSupplementalQuestions } from "./people-supplemental";
+import { politicasSupplementalQuestions } from "./policies-supplemental";
+import { susSupplementalQuestions } from "./sus-supplemental";
 export type Accent = "green" | "blue" | "clay" | "gold";
 
 export type StudyTopic = {
@@ -544,7 +551,7 @@ export const subjects: Subject[] = [
   },
 ];
 
-export const questions: Question[] = [
+export const baseQuestions: Question[] = [
   {
     id: "por-01",
     subjectId: "portugues",
@@ -790,8 +797,19 @@ export const questions: Question[] = [
   },
 ];
 
+export const questions: Question[] = [
+  ...baseQuestions,
+  ...geraisSupplementalQuestions,
+  ...susSupplementalQuestions,
+  ...organizacoesSupplementalQuestions,
+  ...governancaSupplementalQuestions,
+  ...pessoasSupplementalQuestions,
+  ...politicasSupplementalQuestions,
+  ...normasSupplementalQuestions,
+];
+
 export const simulationQuestionIds = [
-  "por-01", "por-02", "log-01", "log-03", "toc-01", "toc-02", "sus-01", "sus-02", "org-01", "org-02", "gov-01", "gov-02", "pes-01", "pes-02", "pol-01", "pol-02", "nor-01", "nor-02",
+  "por-04", "por-12", "log-06", "log-15", "toc-07", "toc-16", "sus-05", "sus-14", "org-06", "org-15", "gov-06", "gov-16", "pes-07", "pes-15", "pol-07", "pol-14", "nor-07", "nor-16",
 ];
 
 export const studyMeta = {

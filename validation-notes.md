@@ -15,3 +15,9 @@ O simulado foi aberto a partir da navegação lateral e exibiu corretamente as r
 O fluxo de entrega foi validado com todos os itens em branco. A interface alertou explicitamente que havia **18 itens em branco**, ofereceu a opção de revisão ou entrega, e, após confirmação, exibiu o resultado final com distribuição por cada uma das nove disciplinas e ação de refazer a rota.
 
 O monitor de evidências exibiu os dados consolidados esperados: **3%** de avanço, **1 bloco concluído**, **100%** de precisão para a única questão respondida e cobertura específica de uma etapa. Após o recarregamento completo da página, os estados de conclusão e resposta continuaram visíveis; isso confirma a persistência local versionada para o progresso e para as respostas autorais.
+
+## Ampliação do banco — 19 de agosto de 2026
+
+O banco passou a ter **20 questões autorais por disciplina**, totalizando 180 questões distribuídas entre as nove áreas do edital. A rota de estudo passou a indicar essa quantidade de forma explícita e apresentou os 20 controles de seleção na disciplina ativa, inclusive o controle de número 20. Em tela móvel, o seletor foi ajustado para rolagem horizontal, preservando o acesso a todos os itens.
+
+A seleção do item 20 foi confirmada no componente de Organizações e Liderança Pública. O enunciado exibido passou para o cenário de mediação de conflito entre lideranças locais, e o controle ativo foi atualizado para a posição 20.

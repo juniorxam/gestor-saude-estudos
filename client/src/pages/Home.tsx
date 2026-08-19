@@ -456,9 +456,9 @@ function StudyWorkspace({
       </section>
 
       <section className="practice-panel">
-        <div className="practice-head"><div><div className="eyebrow subdued"><Target size={14} /> prática autoral</div><h3>Verifique a decisão</h3><p>Questões inéditas, com cinco alternativas e explicação de raciocínio.</p></div><img src="/manus-storage/gestor-saude-pratica_0c3c872c.png" alt="Marcadores abstratos de prática e revisão" /></div>
+        <div className="practice-head"><div><div className="eyebrow subdued"><Target size={14} /> prática autoral</div><h3>Verifique a decisão</h3><p>20 questões inéditas por disciplina, com cinco alternativas e explicação de raciocínio.</p></div><img src="/manus-storage/gestor-saude-pratica_0c3c872c.png" alt="Marcadores abstratos de prática e revisão" /></div>
         {activeQuestion ? <QuestionBlock question={activeQuestion} answer={answer} onAnswer={onAnswer} /> : <div className="empty-practice"><BookOpen size={22} /><p>Esta etapa usa leitura guiada. Selecione uma etapa com questão para praticar.</p></div>}
-        {topicQuestions.length > 1 && <div className="question-selector" aria-label="Alternar questão"><span>OUTRAS QUESTÕES</span>{topicQuestions.map((question, index) => <button type="button" key={question.id} className={index === activeQuestionIndex ? "active" : ""} onClick={() => onSelectQuestion(index)}>{index + 1}</button>)}</div>}
+        {topicQuestions.length > 1 && <div className="question-selector" aria-label="Alternar questão"><span>BANCO DA DISCIPLINA · {topicQuestions.length} QUESTÕES</span>{topicQuestions.map((question, index) => <button type="button" key={question.id} className={index === activeQuestionIndex ? "active" : ""} onClick={() => onSelectQuestion(index)}>{index + 1}</button>)}</div>}
       </section>
     </div>
   );
