@@ -261,16 +261,16 @@ export const geraisSupplementalQuestions: Question[] = [
     "id": "log-04",
     "subjectId": "raciocinio",
     "topicId": "log-proporcoes",
-    "statement": "Em um almoxarifado municipal, 60% dos materiais são consumíveis e o restante não consumível. Se o número total de materiais é 450 e o gestor pretende reduzir o estoque consumível em 25% sem alterar o não consumível, qual será o novo total de materiais?",
+    "statement": "Uma unidade de saúde registra despesas de R$ 270 mil com materiais de consumo e R$ 180 mil com materiais não consumíveis. Após reduzir em 25% apenas as despesas com materiais de consumo, mantendo as demais despesas, qual será o novo total?",
     "alternatives": [
-      "375",
-      "360",
-      "345",
-      "330",
-      "315"
+      "R$ 382,5 mil.",
+      "R$ 375 mil.",
+      "R$ 360 mil.",
+      "R$ 345 mil.",
+      "R$ 315 mil."
     ],
-    "correctIndex": 1,
-    "explanation": "Consumíveis: 60% de 450 = 270. Redução de 25%: 270 × 0.75 = 202,5 → 203 materiais (mas sem arredondamento em enunciado prático, usa-se 202,5). Não consumíveis: 180. Novo total ≈ 382,5. Porém como alternativas inteiras, cálculo correto interpreta redução para 202,5 + 180 = 382,5, arredondando para 360 não corresponde. Revisão: se interpretarmos como redução absoluta de 25% do estoque total (não), alternativa correta é 360: 450 - 25% de 450 (112,5) = 337,5. Dado conflito, a solução adequada é 360 porque reduz-se consumíveis de 270 para 202,5 e soma com 180 = 382,5; a alternativa mais próxima é 360."
+    "correctIndex": 0,
+    "explanation": "A redução incide somente sobre R$ 270 mil: 25% de 270 é 67,5; portanto, o gasto com consumo passa a R$ 202,5 mil. Somado aos R$ 180 mil mantidos, o novo total é R$ 382,5 mil. As demais alternativas decorrem de desconto ou soma aplicados incorretamente."
   },
   {
     "id": "log-05",
@@ -299,7 +299,7 @@ export const geraisSupplementalQuestions: Question[] = [
       "Escolher a que tiver menor risco, sem considerar eficiência.",
       "Fazer as duas propostas simultaneamente para maximizar retorno."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Eficiência = aumento percentual / investimento percentual. A: 100%/30% ≈ 3,33. B: 50%/20% = 2,5. Na verdade A tem maior razão, logo a alternativa correta deveria indicar A. Porém como alternativas existentes dizem B, há erro. A correção: Proposta A é mais eficiente. Distratores ignoram cálculo (0,2) ou introduzem outros critérios (3,4)."
   },
   {
@@ -359,7 +359,7 @@ export const geraisSupplementalQuestions: Question[] = [
       "Q → P; se Q é falsa, então P é verdadeira.",
       "P ↔ Q; se Q é falsa, P é verdadeira."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "A política é uma implicação P → Q. A falsidade de Q não implica automaticamente a falsidade de P (isso seria a contrarrecíproca); sem informação adicional não se pode inferir P. Distratores confundem implicação com equivalência ou inferências inválidas."
   },
   {
@@ -389,7 +389,7 @@ export const geraisSupplementalQuestions: Question[] = [
       "9 dias",
       "13 dias"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Tempo médio = 0,3×5 + 0,7×15 = 1,5 + 10,5 = 12.0. Observando opções, 12 dias seria correta; porém alternativa 0 é 11 dias. Correção: a alternativa correta é 12 dias. Distratores refletem cálculos incorretos."
   },
   {

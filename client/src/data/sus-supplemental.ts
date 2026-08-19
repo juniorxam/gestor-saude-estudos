@@ -14,7 +14,7 @@ export const susSupplementalQuestions: Question[] = [
       "Aumentar o número de leitos hospitalares para absorver a demanda antiga e evitar sobrecarga nas unidades básicas.",
       "Realizar campanhas de comunicação incentivando a população a procurar unidades específicas, sem alterar a organização da rede."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "A medida correta é organizar fluxos e referenciação por território e complexidade para promover integralidade e evitar sobreposição. Fechar unidade pode prejudicar acessibilidade; transferir atendimentos de baixa complexidade para hospital vai contra a lógica de atenção primária; aumentar leitos não resolve fragmentação e pode custar mais; só comunicação sem reorganização não altera a rede."
   },
   {
@@ -59,7 +59,7 @@ export const susSupplementalQuestions: Question[] = [
       "Redigir um documento com demandas fragmentadas por grupos sem articular critérios de prioridade ou estimativas de custos.",
       "Enviar as propostas diretamente ao nível estadual, ignorando a tramitação local via Conselho Municipal de Saúde."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "A opção correta é construir propostas com diagnóstico, priorização e registro formal em ata. Aprovar propostas sem priorização dificulta implementação; excluir usuários e trabalhadores fere princípios de participação; enviar diretamente ao estado sem tramitação local ignora instâncias do controle social; redigir demandas fragmentadas sem critérios impede gestão atuar de forma eficaz."
   },
   {
@@ -89,7 +89,7 @@ export const susSupplementalQuestions: Question[] = [
       "Solicitar aos usuários que busquem informações diretamente nas unidades de saúde, sem intervenções do Conselho.",
       "Manter as reuniões do Conselho em formato fechado para evitar interpretações públicas equivocadas sobre os dados."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "A medida correta é exigir relatórios acessíveis e promover audiências públicas. Publicar apenas em diários oficiais não garante acessibilidade; delegar exclusivamente à comunicação sem fiscalização do Conselho pode ser ineficaz; pedir que usuários busquem informação sem facilitar acesso não promove transparência; reuniões fechadas reduzem controle social."
   },
   {
@@ -104,7 +104,7 @@ export const susSupplementalQuestions: Question[] = [
       "Contratar a operação do equipamento diretamente com empresa privada, sem formalizar instrumentos intermunicipais.",
       "Garantir que apenas o município proponente arque com todos os custos operacionais, sem compartilhar responsabilidades."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Antes de firmar convênio é imprescindível haver parecer e participação do Conselho; assim a opção correta é obter parecer favorável do Conselho. Assinar sem pactuação regional não atende requisitos de governança; termos verbais e contratos informais são inadequados; terceirização sem formalização e ausência de compartilhamento de responsabilidades fragilizam a rede e a transparência."
   },
   {
@@ -134,7 +134,7 @@ export const susSupplementalQuestions: Question[] = [
       "Concentrar todas as ações de prevenção em um único centro especializado localizado na capital estadual, excluindo a atuação local.",
       "Focar exclusivamente em ações educativas gerais, sem integrar medidas de vigilância e assistência específicas."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "A melhor opção é estruturar plano articulado entre APS, vigilância e serviços especializados com fluxos e continuidade. Ações pontuais isoladas e centralização exclusiva na capital fragilizam a rede; responsabilizar apenas a equipe do trabalhador sem articulação quebra integralidade; apenas educação sem integração com vigilância e assistência é insuficiente."
   },
   {
@@ -149,7 +149,7 @@ export const susSupplementalQuestions: Question[] = [
       "Estabelecer composição informal baseada em líderes espontâneos da sociedade civil sem formal ato algum.",
       "Substituir as reuniões presenciais por votações eletrônicas sem critérios de representação para ampliar participação."
     ],
-    "correctIndex": 4,
+    "correctIndex": 0,
     "explanation": "A resposta correta é garantir formalização por ato administrativo e participação do controle social. Constituir apenas representantes estaduais ou técnicos exclui municípios e controle social; composição informal sem formalidade compromete legitimidade; votações eletrônicas sem critérios de representação não asseguram legitimidade e representatividade."
   },
   {
@@ -164,7 +164,7 @@ export const susSupplementalQuestions: Question[] = [
       "Transferir a gestão do serviço à iniciativa privada para padronizar a aplicação dos recursos.",
       "Modificar os instrumentos de gestão de forma retroativa para validar as aplicações já realizadas."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Medida adequada é instaurar monitoramento conjunto com indicadores e revisão periódica. Unilateralidade fere pactuação; suspender repasses sem negociação prejudica serviços; transferência à iniciativa privada não resolve governança intergestores; alterações retroativas dos instrumentos podem violar normas e transparência."
   },
   {
@@ -194,7 +194,7 @@ export const susSupplementalQuestions: Question[] = [
       "A noção de que somente o setor privado deve prover serviços de saúde, com participação estatal mínima.",
       "A visão de que a oferta de serviços deve ser determinada exclusivamente por critérios locais sem base em normas federais."
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "O princípio constitucional central é que saúde é direito de todos e dever do Estado, com acesso universal e igualitário. As alternativas que tratam saúde como mercadoria, função estatal supletiva, provisão exclusiva do setor privado ou autonomia local sem base normativa não refletem o marco constitucional do SUS."
   },
   {
@@ -209,7 +209,7 @@ export const susSupplementalQuestions: Question[] = [
       "Priorizar apenas ações de infraestrutura física, sem mudança nas rotinas de trabalho e nas relações de cuidado.",
       "Substituir debates interprofissionais por decisões administrativas centralizadas para acelerar mudanças."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "A política de humanização enfatiza escuta, acolhimento e valorização do vínculo e das relações de trabalho. Protocolos sem participação, foco exclusivo em produtividade, só infraestrutura ou decisões centralizadas conflitam com os princípios de humanização."
   },
   {
@@ -224,7 +224,7 @@ export const susSupplementalQuestions: Question[] = [
       "Encaminhar todos os trabalhadores afetados diretamente para o nível federal, sem utilização da rede regional.",
       "Divulgar apenas comunicados gerais de prevenção na mídia sem realizar ações de vigilância ativa."
     ],
-    "correctIndex": 4,
+    "correctIndex": 0,
     "explanation": "A resposta correta é notificar e articular linha de cuidado entre APS, serviços especializados e prevenção regional. Aguardar empresa, atuar isoladamente, encaminhar ao nível federal ou apenas comunicar sem vigilância ativa não promovem integração necessária entre atenção e vigilância."
   },
   {
@@ -239,7 +239,7 @@ export const susSupplementalQuestions: Question[] = [
       "Encaminhar a responsabilidade financeira integral para as empresas privadas sem contrapartida ou regulação pública.",
       "Adotar financiamento unicamente por doações de organizações não governamentais para reduzir custo público."
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "A prática alinhada ao SUS é financiamento compartilhado e incorporação aos instrumentos de planejamento com monitoramento. Depender de projetos temporários, recursos extraordinários, transferir custo integral às empresas ou depender de doações não garantem sustentabilidade, responsabilização ou integração à gestão pública."
   },
   {

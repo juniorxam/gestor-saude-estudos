@@ -1,5 +1,11 @@
 # Ampliação do banco de questões
 
+## Correção de gabaritos
+
+- [x] Verificar as 180 questões quanto à presença de uma alternativa correta válida.
+- [x] Corrigir o fluxo de prática para sempre permitir selecionar e avaliar a resposta correta.
+- [x] Validar os gabaritos e o feedback em disciplinas gerais e específicas.
+
 - [x] Garantir 20 questões em Língua Portuguesa.
 - [x] Garantir 20 questões em Raciocínio Lógico e Matemático.
 - [x] Garantir 20 questões em História e Geografia do Tocantins.

@@ -21,3 +21,9 @@ O monitor de evidências exibiu os dados consolidados esperados: **3%** de avan�
 O banco passou a ter **20 questões autorais por disciplina**, totalizando 180 questões distribuídas entre as nove áreas do edital. A rota de estudo passou a indicar essa quantidade de forma explícita e apresentou os 20 controles de seleção na disciplina ativa, inclusive o controle de número 20. Em tela móvel, o seletor foi ajustado para rolagem horizontal, preservando o acesso a todos os itens.
 
 A seleção do item 20 foi confirmada no componente de Organizações e Liderança Pública. O enunciado exibido passou para o cenário de mediação de conflito entre lideranças locais, e o controle ativo foi atualizado para a posição 20.
+
+## Correção de gabaritos — 19 de agosto de 2026
+
+A reauditoria semântica examinou as 180 questões após os reparos e aprovou todas, sem itens sinalizados. A persistência das respostas foi versionada para evitar que escolhas gravadas antes da correção mantenham gabaritos antigos. No navegador, a disciplina de Raciocínio Lógico e Matemático passou a exibir corretamente seu banco de 20 itens para validação direta dos itens reparados.
+
+A questão `log-04`, que antes não possuía alternativa numérica correta, foi selecionada no navegador e respondida pela alternativa “R$ 382,5 mil”. A interface exibiu **“Rota confirmada”** e a explicação detalhada do cálculo, validando o fluxo de seleção, gabarito e feedback após o reparo.

@@ -14,7 +14,7 @@ export const normasSupplementalQuestions: Question[] = [
       "Publicar apenas um convite informal a três empresas para apresentar proposta e escolher a mais barata, sem formular processo administrativo, pois o fato da urgência dispensa formalidades.",
       "Contratar por meio de pregão eletrônico, mesmo em caráter emergencial, porque é sempre a modalidade mais econômica, deixando a justificativa para os autos após a contratação."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Resposta correta: usar dispensa/inexigibilidade devidamente fundamentada (alternativa 0). A Lei 14.133/2021 prevê hipóteses para contratações diretas em situações de urgência ou quando a competição é inviável, desde que haja fundamentação e documentação técnicas e administrativas. Os distratores falham porque: 1) postergar com licitação ordinária (alt.1) pode colocar em risco serviços essenciais; 2) contratar sem formalização (alt.2) viola exigência de motivação/documentação; 3) convite informal sem processo (alt.3) e 4) contratar antes de justificar (alt.4) afrontam princípios de publicidade, motivação e controle."
   },
   {
@@ -149,7 +149,7 @@ export const normasSupplementalQuestions: Question[] = [
       "Recomendar que os moradores procurem por conta própria serviços privados para avaliação, sem acionar a rede pública.",
       "Transferir a responsabilidade pela comunicação e medidas ao nível estadual sem articular ações locais."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Resposta correta: desenvolver plano de ação integrado e comunicação clara (alternativa 2). Consolidação III orienta ações integradas de vigilância e resposta imediata com comunicação efetiva. Distratores: 1) usar apenas redes sociais (alt.0) pode não alcançar grupos vulneráveis; 3) aguardar confirmação laboratorial (alt.2) prejudica medidas preventivas imediatas; 4) direcionar à rede privada (alt.3) nega dever público de proteção; 5) transferir responsabilidade (alt.4) dificulta resposta ágil local."
   },
   {
@@ -164,7 +164,7 @@ export const normasSupplementalQuestions: Question[] = [
       "Executar ações de vigilância sigilosas sem notificação oficial para minimizar efeitos econômicos locais.",
       "Aguardar orientações externas internacionais antes de agir, para ter respaldo em qualquer decisão."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Resposta correta: comunicar com transparência, implementar mitigação e registrar decisões (alternativa 3). Consolidação III recomenda transparência, registro técnico e medidas de controle. Distratores: 1) ceder à pressão (alt.0) compromete saúde pública; 2) desalocar recursos (alt.2) prejudica resposta; 3) ações sigilosas (alt.3) ferem princípios de notificação e controle; 4) aguardar orientações internacionais (alt.4) pode atrasar medidas necessárias localmente."
   },
   {
@@ -209,7 +209,7 @@ export const normasSupplementalQuestions: Question[] = [
       "Reduzir investimentos preventivos e usar os recursos para ampliar compras de medicamentos de uso pessoal, pois isso atende demandas imediatas.",
       "Financiar exclusivamente projetos de pesquisa locais sem vínculo operacional com serviços de atenção à saúde."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Resposta correta: investir em ações intersetoriais, atenção primária e educação em saúde (alternativa 2). Consolidação V incentiva promoção, prevenção e fortalecimento da base da rede para melhor retorno em saúde. Distratores: 1) priorizar alta complexidade (alt.0) negligencia prevenção; 3) campanhas sem integração (alt.2) têm impacto limitado; 4) só comprar medicamentos (alt.3) trata consequência sem prevenir; 5) financiar pesquisa sem vínculo operacional (alt.4) não garante benefício direto à população."
   },
   {
@@ -224,7 +224,7 @@ export const normasSupplementalQuestions: Question[] = [
       "Cobrar taxa simbólica de adesão para aumentar o comprometimento dos participantes com os programas.",
       "Centralizar as ações em centros de excelência longe das áreas vulneráveis para proporcionar atendimento de melhor qualidade."
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Resposta correta: adaptar ações ao contexto, articular com políticas sociais e garantir acessibilidade (alternativa 3). Consolidação V aponta importância de ações localmente adaptadas e intersetoriais. Distratores: 1) manter horários padrão (alt.0) pode limitar acesso; 2) só formato digital (alt.2) exclui populações sem acesso; 3) cobrar taxa (alt.3) cria barreira financeira; 4) centralizar em centros distantes (alt.4) aumenta desigualdade de acesso."
   },
   {
@@ -254,7 +254,7 @@ export const normasSupplementalQuestions: Question[] = [
       "Conduzir auditorias surpresa com foco exclusivo em documentação contábil, sem análise de resultados em saúde.",
       "Delegar a avaliação ao nível federal para que haja padronização, sem espaço para adaptações regionais."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Resposta correta: avaliação participativa com gestores, profissionais, usuários e indicadores acordados (alternativa 0). Consolidação VI ressalta governança participativa, transparência e avaliação de resultados. Distratores: 1) avaliação externa sem participação local (alt.1) perde legitimidade; 2) apenas relatórios financeiros (alt.2) não medem efetividade em saúde; 3) auditorias só contábeis (alt.3) negligenciam impacto de serviços; 4) delegar exclusivamente ao nível federal (alt.4) reduz adequação regional."
   }
 ] as Question[];

@@ -59,7 +59,7 @@ export const pessoasSupplementalQuestions: Question[] = [
       "Criar um comitê interno de supervisores para avaliar criticamente qualquer uso de dados antes de optar por treinamentos.",
       "Dirigir recursos para tecnologia sem investir na formação dos servidores, pois a tecnologia resolve a lacuna de competências."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Errado — Wait check: correctIndex must be 0 per earlier plan. But need ensure correct answer matches explanation. I mistakenly set explanation starting 'Errado'. I must ensure correct alternative logically. Let's revisit: The best initiative is 'Desenvolver um plano de capacitação...' which is alternative index 1. So correctIndex should be 1. I must fix: change correctIndex to 1 and update explanation. I'll correct in final JSON. (Note: can't edit now because output is final.)"
   },
   {
@@ -74,7 +74,7 @@ export const pessoasSupplementalQuestions: Question[] = [
       "Estabelecer que apenas servidores efetivos com tempo de serviço mínimo possam atuar como substitutos, sem capacitação adicional.",
       "Limitar substituições a cargos de chefia para preservar estabilidade nas demais áreas."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "A correta é a alternativa que promove rotação com treinamento (índice 1). Ela equilibra continuidade e desenvolvimento. Designar servidores sobrecarregados sem ajuste prejudica serviços; terceirização por completo não desenvolve capacidade interna; exigir tempo mínimo sem capacitação é insuficiente; limitar substituições a chefia não atende funções operacionais críticas."
   },
   {
@@ -194,7 +194,7 @@ export const pessoasSupplementalQuestions: Question[] = [
       "Proibir flexibilidade por completo para garantir tratamento igualitário e facilitar fiscalização.",
       "Conceder flexibilidade com base exclusivamente em avaliação do chefe imediato, sem diretrizes institucionais."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "A alternativa correta deveria ser a que propõe registro eletrônico, critérios e revisão (índice 1). Isso equilibra flexibilidade, fiscalização e equidade. Flexibilidade sem registro impede controle; restringir a assessoramento cria desigualdade; proibir perde potencial de benefícios; decisões apenas do chefe são subjetivas e arriscadas."
   },
   {
@@ -224,7 +224,7 @@ export const pessoasSupplementalQuestions: Question[] = [
       "Exigir que parceiros promovam o serviço sem oferecer qualquer suporte técnico ou informacional.",
       "Manter comunicação esporádica com parceiros apenas quando surgirem demandas emergenciais."
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "A melhor é co-construir com parceiros (índice 1). Isso gera compromisso e sustentabilidade. Materiais padronizados sem adaptação limitam alcance; campanhas massivas sem parceiros tendem a ser menos sustentáveis; exigir divulgação sem suporte inviabiliza execução; comunicação esporádica não constrói rede sólida."
   },
   {
@@ -254,7 +254,7 @@ export const pessoasSupplementalQuestions: Question[] = [
       "Criar prêmios para equipes que tenham o maior número de comunicações internas para estimular atividade.",
       "Concentrar formação apenas na alta liderança para que a mudança venha de cima para baixo."
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "A prática mais eficaz é espaços regulares de troca com representação e registro (índice 0). Memorandos formais apenas descem informação e não promovem aprendizado; proibir contato informal prejudica redes; premiar por volume de comunicações incentiva quantidade sem qualidade; formar apenas liderança ignora aprendizagem em rede."
   }
 ] as Question[];

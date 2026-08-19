@@ -45,7 +45,7 @@ type AnswerMap = Record<string, number>;
 
 const STORAGE_KEYS = {
   completed: "cartografia-cuidado-completed-v1",
-  answers: "cartografia-cuidado-answers-v1",
+  answers: "cartografia-cuidado-answers-v2",
 };
 
 const subjectArt: Record<string, string> = {
